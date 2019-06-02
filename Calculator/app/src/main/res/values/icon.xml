@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="plus">&#xf067;</string>
+    <string name="minus">&#xf068;</string>
+    <string name="divide">&#xf529;</string>
+    <string name="mutiply">&#xf00d;</string>
+    <string name="equalto">&#xf52c;</string>
+    <string name="backspace">&#xf55a;</string>
+</resources>
