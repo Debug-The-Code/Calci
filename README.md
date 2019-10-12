@@ -1,2 +1,2 @@
 # Calci
-A simple calculator app made in java.
+A simple calculator app made in java for calculations it used awesome font with beteer user experience. 
