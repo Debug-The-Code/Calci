@@ -1,2 +1,2 @@
 # Calci
-A simple calculator app made in java.
+A simple calculator app for calculations made in java.
