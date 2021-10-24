@@ -1,3 +1,5 @@
 # Calci
 A simple calculator app made in java for calculations it used awesome font with beter user experience. 
-It uses an api called Mathparser whith takes a mathematical expression and solve it and return the result to the app...
+
+To know more google it. 
+Aut dimag sahe rakhoo
