@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView button_0, button_1, button_2, button_3, button_4, button_5,button_6,button_7,button_8,button_9,clear,decimal,percent;
+        TextView button_0, button_1, button_2, button_3, button_4, button_5,button_6,button_7,button_8,button_9,clear_button,decimal_button,percentage_button;
         IconTextView backspace,plus,minus,divide,multply,equal;
 
 
@@ -34,14 +34,14 @@ public class MainActivity extends AppCompatActivity {
         button_8 = (TextView)findViewById(R.id.no_8);
         button_9 = (TextView)findViewById(R.id.no_9);
         backspace=(IconTextView)findViewById(R.id.backspace);
-        clear = (TextView)findViewById(R.id.clear);
+        clear_button = (TextView)findViewById(R.id.clear);
         plus = (IconTextView)findViewById(R.id.plus);
         minus = (IconTextView)findViewById(R.id.minus);
         multply = (IconTextView)findViewById(R.id.multiplication);
         divide = (IconTextView)findViewById(R.id.division);
         equal = (IconTextView)findViewById(R.id.equalto);
-        decimal = (TextView)findViewById(R.id.decimal);
-        percent = (TextView)findViewById(R.id.percent);
+        decimal_button = (TextView)findViewById(R.id.decimal);
+        percentage_button = (TextView)findViewById(R.id.percent);
 
         button_0.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -142,7 +142,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        clear.setOnClickListener(new View.OnClickListener() {
+        clear_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Display1("");
@@ -193,7 +193,7 @@ public class MainActivity extends AppCompatActivity {
                 Display2("");
             }
         });
-        decimal.setOnClickListener(new View.OnClickListener() {
+        decimal_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 expression=expression+".";
@@ -201,7 +201,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        percent.setOnClickListener(new View.OnClickListener() {
+        percentage_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 expression=expression+"%";
